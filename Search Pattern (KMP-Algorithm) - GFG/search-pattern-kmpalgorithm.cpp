@@ -25,7 +25,7 @@ class Solution
             //code hee.
          int m=pat.length();
          int n=txt.length();
-         vector<int> lps(n);
+         vector<int> lps(m);
          lps1(pat, lps);
          int i=0; int j=0;
          while(i<n && j<m ){
